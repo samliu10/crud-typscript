@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.2.0"
+  },
+  "name": "crud-typscript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/samliu10/crud-typscript.git",
+  "author": "Sam Liu <sl2486@cornell.edu>",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "start": "yarn tsc && node output/index"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.11.8",
+    "typescript": "^4.0.3"
+  }
+}
